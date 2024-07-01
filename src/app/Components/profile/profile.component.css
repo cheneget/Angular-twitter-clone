@@ -1,0 +1,71 @@
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  border-radius: 16px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slightly larger shadow */
+  text-align: left; /* Align text to the left */
+  border: 1px solid #e1e8ed; /* Light border */
+  position: relative; /* Positioning context for absolute positioning */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  background-image: url('data:image/jpeg;base64,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'); /* Replace with your background image path */
+  background-size: cover; /* Ensure the background image covers the container */
+}
+
+.profile-container h2 {
+  color: #14171a; /* Dark gray text */
+  border-bottom: none; /* Remove bottom border */
+  font-size: 24px; /* Slightly larger font size */
+  font-weight: 700; /* Bold font */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+.profile-image img{
+ width: 50px;
+ height: 50px;
+  border-radius: 50%; 
+   
+}
+
+ /* .profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}  */
+
+.profile-container p {
+  font-size: 16px;
+  color:black; 
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.profile-container p strong {
+  color: #14171a;
+}
+
+.profile-container .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1da1f2;
+  color: #ffffff; 
+  border-radius: 25px; 
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.profile-container .btn:hover {
+  background-color: #0d95e8; 
+}
+
+.profile-container a {
+  color: #1da1f2; 
+  text-decoration: none;
+}
+
+.profile-container a:hover {
+  text-decoration: underline; 
+}
